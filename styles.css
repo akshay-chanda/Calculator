@@ -8,6 +8,19 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
+/* Container to center everything */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading style */
+.heading {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
 .calculator {
   width: 320px;
   padding: 10px 8px;
@@ -86,4 +99,27 @@ body {
 
 .percentage:active {
   filter: brightness(1.2);
+}
+
+/* Make responsive for small screens */
+@media (max-width: 480px) {
+  .calculator {
+    width: 90%;
+    padding: 8px 5px;
+  }
+
+  .display {
+    font-size: 36px;
+    padding: 20px 10px;
+  }
+
+  .btn, .equal, .percentage {
+    font-size: 24px;
+    padding: 12px 0;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
 }
