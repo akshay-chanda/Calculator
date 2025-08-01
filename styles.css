@@ -104,7 +104,7 @@ body {
 /* Make responsive for small screens */
 @media (max-width: 480px) {
   .calculator {
-    width: 100%;
+    width: 95%;
     padding: 8px 5px;
   }
 
@@ -116,7 +116,7 @@ body {
   .btn, .equal, .percentage {
     font-size: 25px;
     margin: 4px;
-    padding: 11px 0;
+    padding: 15px 5px;
   }
 
   .function {
@@ -124,8 +124,7 @@ body {
   }
 
   .heading {
-    font-size: 28px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+    font-size: 32px;
+    margin-bottom: 25px;
   }
 }
