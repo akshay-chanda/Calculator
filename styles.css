@@ -12,6 +12,7 @@ body {
 .container {
   text-align: center;
   padding: 20px;
+  margin-bottom: 2.3rem;
 }
 
 /* Heading style */
@@ -103,6 +104,10 @@ body {
 
 /* Make responsive for small screens */
 @media (max-width: 480px) {
+  .container {
+    margin-bottom: 2.5rem;
+  }
+
   .calculator {
     width: 95%;
     padding: 8px 5px;
