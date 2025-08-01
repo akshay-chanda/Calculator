@@ -109,18 +109,18 @@ body {
   }
 
   .display {
-    font-size: 36px;
+    font-size: 40px;
     padding: 20px 10px;
   }
 
   .btn, .equal, .percentage {
-    font-size: 25px;
+    font-size: 30px;
     margin: 4px;
     padding: 15px 5px;
   }
 
   .function {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .heading {
